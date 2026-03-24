@@ -1,24 +1,12 @@
 # Flutter UI Template
 
-基于 Flutter + GetX + Dio 的轻量项目模板，适合后续直接复制作为新项目起点。
+基于 Flutter + GetX + Dio 的项目模板
 
 ## 技术栈
 
 - Flutter
 - GetX（路由、依赖注入、状态管理）
 - Dio（HTTP 请求）
-
-## 当前说明
-
-由于当前环境未提供 Flutter CLI，本模板先生成了可复用的 `lib/`、`pubspec.yaml` 和目录骨架。
-
-后续你本地如果已安装 Flutter，可在项目根目录补齐原生工程：
-
-```bash
-flutter create .
-```
-
-如果执行前担心覆盖文件，建议先备份或在新目录验证后再合并。
 
 ## 目录结构
 
@@ -78,13 +66,6 @@ Flutter-Ui/
 - Dio 基础封装
 - Home 模块示例
 - 一个全局按钮组件示例
-
-## 建议后续使用方式
-
-1. 先补齐 Flutter 原生工程
-2. 执行依赖安装
-3. 按业务继续新增模块
-4. 将 `Home` 模块替换为你的真实业务首页
 
 常用命令：
 
