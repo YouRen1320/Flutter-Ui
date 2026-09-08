@@ -1,6 +1,12 @@
-# Flutter UI Template
+# Flutter 应用起步模板
 
 基于 Flutter + GetX + Dio 的项目模板
+
+## 使用状态
+
+这是用于新项目起步的轻量模板，包含示例 Home 模块、路由、依赖注入与网络封装。`lib/app/core/constants/api_constants.dart` 中的 `https://example.com/api` 是占位地址，接入真实接口前请替换并检查数据模型。
+
+需要满足 `pubspec.yaml` 声明的 Dart `>=3.3.0 <4.0.0`。仓库包含多平台工程文件，各平台仍需配置本地工具链并分别验证；工程目录存在不代表已经通过真机验收。
 
 ## 技术栈
 
@@ -45,9 +51,8 @@ Flutter-Ui/
 │     │  └─ http.dart             # Dio 封装
 │     └─ widgets/
 │        └─ primary_button.dart   # 全局复用组件示例
-├─ assets/                        # 静态资源
 ├─ pubspec.yaml                   # 项目依赖声明
-└─ README.md
+└─ readme.md
 ```
 
 ## 模板特点
